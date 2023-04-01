@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import "./App.css";
 let counter = 0;
@@ -26,8 +26,11 @@ function Counter(props) {
   );
 }
 
+
+
 function App() {
   return <>
+    {/* <Texto /> */}
     <Counter />
   </>;
 }
